@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Example2</title>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h1>Scope</h1>
+        <script>
+
+            $(function () {
+                var a = "Hello World";
+                function myFunOne() {
+                    console.log(a); 
+                }
+            })
+
+            //Seperating scope for usage with js other libraries
+            // (function () {
+            //     $('h1').hide();
+            // }(jQuery));
+        </script>
+    </body>
+</html>
