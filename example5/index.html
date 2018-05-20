@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Example4</title>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h1>Scope</h1>
+        <p title="pTitle1">ASDFASDFASDF</p>
+        <p title="pTitle2">ZXCZXCZXCZXC</p>
+        <p>QWEQWEQWEQWE</p>
+        <a href="https://placeholder.com"><img 
+            src="http://via.placeholder.com/350x150"/ alt="test image 1"
+             title="New title" height="100px"></a>
+        <a href="https://placeholder.com"><img 
+            src="http://via.placeholder.com/200x200?text=Hello"/></a>
+        <script>
+            $(function () {
+                console.log($('p').attr('title'));
+                $('p').attr('title', 'first paragraph');
+                $('img').attr('src', 'http://via.placeholder.com/50x50/eee/003333');
+                sleep(2000);
+                //Json Formatted
+                //$('img').attr({src:'http://via.placeholder.com/50x50/eee/003333'});
+
+            });
+        </script>
+    </body>
+</html>
