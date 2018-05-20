@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Example4</title>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h1>Scope</h1>
+        <p>ASDFASDFASDF</p>
+        <p>ZXCZXCZXCZXC</p>
+        <p>QWEQWEQWEQWE</p>
+        <script>
+            $(function () {
+                $('h1').html('I like jquery!<br> Alot');
+                // $('h1').text('I like jquery!<br> Alot');
+            })
+            // document.querySelector('p').innerHTML = "Hello World";
+            // document.querySelectorAll('p')[1].innerHTML = "Hello World";
+        </script>
+    </body>
+</html>
