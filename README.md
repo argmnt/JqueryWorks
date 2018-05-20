@@ -1,3 +1,3 @@
 # JqueryWorks
 
-It is Jquery training through progress it will continue ordered with examples numbers.
+It is Jquery training through progress it will continue ordered with example's numbers.
