@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Example7</title>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+        <style>
+            input[type=text] {
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+       <h1>Welcome Complete jquery Courses</h1>
+       <input type="text" name="first" value="Laurence">
+       <input type="text" name="last" value="Svekis">
+       <input type="checkbox" name="one" value="one">
+       <input type="checkbox" name="two" value="two">
+       <input type="checkbox" name="three" value="three">
+        <script>
+            $(function () {
+                var checkBoxes = 
+                $('input[type=checkbox]');
+                console.log(checkBoxes.val());
+            })
+        </script>
+    </body>
+</html>
